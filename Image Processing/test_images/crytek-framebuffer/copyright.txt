@@ -1,0 +1,13 @@
+This data was captured from Crysis 2 by Tiago Sousa at Crytek.  The data is copyright Crytek 2011.
+
+Morgan McGuire converted it from DDS to PNG + PPM for the convenience of students and researchers.
+Each frame has the following associated buffers:
+
+Color:         8-bit per channel sRGB PNG of the final image with no antialiasing
+Color_SSAAx16: SSAAx16 8-bit per channel sRGB PNG of the final image.
+N:             RGB8 Geometry buffer normal in camera space, biased and scaled by 0.5.  The "noise" comes from best-fit normal encoding.
+V:             RG8 camera-space velocity buffer.  These appear to be constant, however.
+Z:             R32 linear camera space depth value.  PNG does not support 32-bit grayscale, so Morgan converted these to PGM (http://netpbm.sourceforge.net/doc/pgm.html) as a fairly easy to read binary image format.
+z16:           R16 linear camera space depth value.
+
+This release contains only one image.  Crytek prepared more data and I will release it shortly.
