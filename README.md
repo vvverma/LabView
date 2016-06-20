@@ -1,3 +1,3 @@
 # LabView
 
-This Repository consist of elementary implementation LabView Projets
+This Repository consist of elementary implementation LabView Projects
